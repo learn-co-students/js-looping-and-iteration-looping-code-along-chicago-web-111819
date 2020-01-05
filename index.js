@@ -1,5 +1,6 @@
 
 
+// `for` loop noise
 function writeCards(names, eventName) {
     let messages = [];
     for (let i = 0; i < names.length; i++) {
@@ -9,6 +10,7 @@ function writeCards(names, eventName) {
     return messages;
 }
 
+// `while` loop noise
 function countDown(startingNumber) {
     let i = startingNumber;
     while (i >= 0) {
@@ -16,7 +18,6 @@ function countDown(startingNumber) {
         i--;
     }
 }
-countDown(13);
 
 
 
